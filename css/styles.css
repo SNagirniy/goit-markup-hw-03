@@ -194,6 +194,9 @@ header {
 }
 
 /*переваги*/
+.section.quality {
+  padding-bottom: 0;
+}
 
 .quality.list {
   display: flex;
@@ -292,14 +295,14 @@ header {
 
 /*заголовки карток - згруповані*/
 .title-group {
-  margin: 30px 0;
+  padding: 30px 0;
   text-align: center;
 }
 
 /*footer*/
 footer {
   background: var(--footer-bcg);
-  padding: 60px;
+  padding: 60px 0;
 }
 
 /*параметри логотипу у футері*/
@@ -357,7 +360,7 @@ footer .logo {
 .filter.list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .filter > li:not(:last-child) {
